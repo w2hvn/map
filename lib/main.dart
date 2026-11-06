@@ -317,11 +317,11 @@ class _MapScreenState extends State<MapScreen> {
                       children: [
                         Text(
                           'WGS84: ${_selectedPoint.latitude.toStringAsFixed(6)}°, ${_selectedPoint.longitude.toStringAsFixed(6)}°',
-                          style: const TextStyle(fontSize: 12, color: Colors.black80),
+                          style: const TextStyle(fontSize: 12, color: Colors.black87),
                         ),
                         Text(
                           'KTT: $_ktt° (Múi $_zoneWidth°)',
-                          style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: Colors.black80),
+                          style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: Colors.black87),
                         ),
                       ],
                     ),
@@ -331,11 +331,11 @@ class _MapScreenState extends State<MapScreen> {
                       children: [
                         Text(
                           'Trục X (Bắc): ${_northing.toStringAsFixed(1)} m',
-                          style: const TextStyle(fontSize: 12, color: Colors.black80),
+                          style: const TextStyle(fontSize: 12, color: Colors.black87),
                         ),
                         Text(
                           'Trục Y (Đông): ${_easting.toStringAsFixed(1)} m',
-                          style: const TextStyle(fontSize: 12, color: Colors.black80),
+                          style: const TextStyle(fontSize: 12, color: Colors.black87),
                         ),
                       ],
                     ),
